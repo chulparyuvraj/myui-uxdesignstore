@@ -1,0 +1,292 @@
+body{
+    font-family: "Montserrat";
+    background-color: #010327 ;
+}
+h1{
+    font-family: "Montserrat";
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+    color: #fff;
+}
+h1 .UIUX{
+    background: linear-gradient(to right,#fcc133,#334efc);
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+.header1{
+    padding-top: 10%;
+}
+.container-fluid{
+    padding: 3% 15% 14%;
+}
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.brand{
+    font-family: "Montserrat";
+    font-size: 40px;
+    font-weight:bolder;
+    background: linear-gradient(to right,#fcc133,#334efc);
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+
+}
+.navbar-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+.title-image{
+    max-width: 100%;
+    height: auto;
+    /* position: absolute; */
+    /* padding-right: 30px; */
+}
+
+/* second section */
+
+#secondscreen{
+    background-color: #fff;
+    color: #000;
+    text-align: center;
+    /* position:inherit; */
+}
+#secondscreen h2,h3{
+    font-family: "Montserrat";
+    font-weight: bolder;
+}
+#secondscreen h3{
+    color: aqua;
+    display: inline-block;
+    padding: 0 20px;
+}
+#secondscreen h3:hover{
+    color: #02024b;
+}
+.image-height{
+    max-width: 100%;
+    height: 300px;
+    border-radius: 20px;
+    box-shadow:5px 5px 10px 1px #02024b;
+    margin:20px  20px ;
+}
+
+.SS-image{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow:5px 5px 10px 1px #02024b;
+    margin:20px  20px ;
+}
+.title-image1{
+    width: 100%;
+    height: auto;
+}
+.title2{
+    padding: 3% 15% 7%;
+}
+
+#Mobile{
+    /* padding: 5% 3% 2%; */
+}
+#Mobile .container-fluid{
+    padding: 5% 15% 5%;
+}
+#Mobile .header1{
+    padding-top:40% ;
+    padding-left: 10%;
+}
+
+.explore2 button{
+    color: rgb(255, 255, 255);
+    border:1px solid rgb(255, 255, 255) ;
+    border-radius: 10px;
+    padding: 8px 20px;
+    background-color: transparent;
+    float: right;
+    margin-right: 50px ;
+}
+.explore2 button:hover{
+    color: #000;
+    background-color: #fff;
+    border:1px solid #fff ;
+    transition: 1s;
+}
+.explore2 button i{
+    padding: 0 0 0 15px;
+}
+
+/* Like section */
+#like-section{
+    background-color: #fff;
+    text-align: center;
+    padding: 3% 15% 5%;
+}
+#like-section img{
+    max-width: 100px;
+    height: auto;
+    padding: 6% 0 3% 0;
+}
+#like-section h2{
+    font-family: "Montserrat";
+    font-weight: bolder;
+}
+#like-section h4{
+    opacity: 50%;
+    padding: 1% 15% 0%;
+}
+
+/* Desktop section */
+/* #Desktop{
+    padding: 7% 3% 2%;
+} */
+#Desktop .container-fluid{
+    padding: 8% 15% 8%;
+}
+#Desktop .title-image2{
+    max-width: 100%;
+    height: auto;
+    padding: 15% 0 0%;
+
+}
+#Desktop .explore2 button{
+    float: left;
+}
+#Desktop .explore2{
+    padding-top: 2%;
+}
+
+/* footer */
+
+#footer{
+    background-color: #fff;
+    font-family: "Montserrat";
+    padding: 6% 0 20px;
+    text-align: center;
+}
+#footer i{
+    font-size: 20px;
+    padding: 10px 10px;
+    color: #000;
+    text-decoration: none;
+}
+#footer .fa-linkedin:hover{
+    color: #334efc;
+}
+#footer .fa-envelope:hover{
+    color: rgb(223, 6, 6);
+}
+#footer a:link{
+    text-decoration: none;
+}
+
+
+
+@media (max-width: 1028px){
+    .brand{
+        font-size:30px ;
+    }
+
+    .title-image{
+        max-width: 100%;
+        height: auto;
+    }
+    .container-fluid{
+        padding: 3% 15% 7%;
+    }
+    h1{
+        font-size: 40px;
+    }
+    #Mobile h1{
+        font-size: 35px;
+    }
+    .navbar-item{
+        padding: 0 0;
+    }
+    .image-height{
+        max-width: 100%;
+        height: auto;
+    }
+    #secondscreen h2,h3{
+        font-size: medium;
+        text-align: center;
+    }
+    #Mobile .header1{
+        padding-top:20% ;
+        /* padding-left: 2%; */
+    }
+    .explore2{
+        padding-top: 4%;
+    }
+    #Desktop .explore2{
+        padding-top: 15%;
+    }
+}
+
+
+/* Mobile design store's */
+#Mobiled{
+    color: #fff;
+}
+#Mobiled h2{
+    padding: 5% 0 0 7%;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    font-size: 40px;
+    background: linear-gradient(to right,#fcc133,#334efc);
+    display: inline-block;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+#Mobiled .container-fluid{
+    padding: 2% 10% 5%;
+}
+.mobiled-all{
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow:5px 5px 10px 1px #9292e3;
+    margin:60px  0 30px  ;
+    padding: 6% 2% 2% 2%;
+}
+#Mobiled .container-fluid h3{
+    padding: 1% 15% 5% 0;
+}
+
+.title-image2{
+    width: 400px;
+    height: auto;
+}
+
+
+@media screen and (max-width:800px){
+    #Mobiled h2{
+        font-size: 25px;
+    }
+    .title-image2{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Desktop design */
+
+.title-image5{
+    max-width: 500px;
+    height: auto;
+    margin-top: 10%;
+    padding-bottom: 7%;
+}
+@media screen and (max-width:800px){
+    .title-image5{
+        max-width: 100%;
+        height: auto;
+    }
+}
